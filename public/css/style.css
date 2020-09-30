@@ -1,0 +1,466 @@
+@font-face{
+    font-family: 'AvenirNextLTPro-Bold';
+    src: url('../font/AvenirNextLTPro-Bold.woff') format('woff');
+}
+@font-face{
+    font-family: 'IBMPlexSerif-Bold';
+    src: url('../font/IBMPlexSerif-Bold.woff') format('woff');
+}
+@font-face{
+    font-family: 'PlayfairDisplay-MediumItalic';
+    src: url('../font/PlayfairDisplay-MediumItalic.woff') format('woff');
+}
+@font-face{
+    font-family: 'PTSerif-Regular';
+    src: url('../font/PTSerif-Regular.woff') format('woff');
+}
+@font-face{
+    font-family: 'ArialRoundedMT-Bold';
+    src: url('../font/ArialRoundedMT-Bold.woff') format('woff');
+}
+
+.navbar{
+    box-shadow: 0 4px 2px -1px #38c172;
+}
+#body > .row .root{
+    margin-left: 0px;
+    margin-right: 0px;
+} 
+#body > .row > .col-md-12 .root{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.container-lg > .text-logo{
+    font-family: 'AvenirNextLTPro-Bold';
+    color: green ;
+    position: relative;
+    top:1px;
+    margin-right:auto;
+}
+.logo-navbar{
+    width:30px;
+    height: 30px;
+    margin-right:5px;
+}   
+.nav-item > .nav-link{
+    font-family: 'Arial' ;
+    color: green !important ;
+    font-weight: bold;
+}   
+.nav-item > .btn {
+    color: white;
+}
+@media (min-width: 992px) {
+    .line-navbar{
+        width: 90%;
+        margin: 0 auto;
+        padding: 2px;
+        background-color: green;
+    }
+}
+.limit-carousel{
+    background-color: #38c172;
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    color: white;
+    font-weight: bold;
+    padding-top:5px;
+}
+.carousel-item > .item{
+    object-fit: cover;
+    height: 87vh;
+}
+@media (max-width:576px){
+    .carousel-item > .item{
+        height: 83vh;
+    }
+}
+.bg-white .wrapper{
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+.carousel-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.carousel-title{
+    font-family: 'AvenirNextLTPro-Bold';
+    font-size: 45px;
+    margin-top: 40vh;
+    margin-left: 8%;
+    display: block;
+    padding: 0px 10px;
+    background:white;
+    line-height: 1.1;
+    width: max-content;
+}
+.carousel-hashtag{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 8%;
+    display: block;
+    padding: 0px 10px;
+    background: white;
+    color: green;
+    width: max-content;
+}
+.carousel-desc{
+    font-size:0.5;
+    margin-top: 10px;
+    margin-left:8%;
+    display: block;
+    width: 40%;
+    padding: 0px 10px;
+    background:rgba(0, 255, 106, 0.8);
+    color: black;
+}
+.carousel-title > .text-success{
+    color: green !important;
+}
+
+@media (max-width: 992px){
+    .carousel-desc{
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .carousel-title{
+        margin: 0 auto;
+        margin-top: 35vh;
+        font-size: 25px;
+        padding-top: 5px;
+    }
+    .carousel-hashtag{
+        margin: 0 auto;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
+.card{
+    width: 360px;
+    border-radius: 20px;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    -webkit-box-shadow: 0px 11px 20px -1px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 11px 20px -1px rgba(0,0,0,0.63);
+    box-shadow: 0 1px 6px 0 rgba(49,53,59,0.12);
+}
+@media (max-width: 576px) {
+    .card{
+        width: 100%;
+    }
+}
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: transform .5s ease;
+}
+.card-title{
+    font-family: 'IBMPlexSerif-Bold';
+}
+.card-dept{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: green;
+    text-align: left;
+}
+.card-date{
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+}
+.card-capt{
+    margin-bottom: 5px;
+}
+.row-p-card{
+    padding: 20px 7%;
+}
+.zoom-card-img-top{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0px;
+}
+.card-img-top:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.sub-title{
+    font-family: 'AvenirNextLTPro-Bold';
+    margin-left: 10px;
+}
+.news-container{
+    width: 100%;
+    padding: 5px 0px;
+    margin: 5px auto;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+.news{
+    width: 100%;
+    padding: 0px 2px;
+    padding-bottom: 10px;
+    margin-top: 12px;
+    -webkit-box-shadow: 0px 11px 20px -1px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 11px 20px -1px rgba(0,0,0,0.63);
+    box-shadow: 0 1px 6px 0 rgba(49,53,59,0.12);
+}
+.img-news{
+    object-fit:cover;
+    padding:0;
+    top: 5px;
+}
+.title-news{
+    font-family: 'IBMPlexSerif-Bold';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.4;
+    display: block;
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+.title-news > a {
+    color: black;
+    display: block;
+    margin-top: 5px;
+}
+.title-news > a:hover{
+    text-decoration: none;
+    color: lightseagreen;
+}
+.h-100px{
+    height: 100px;
+}
+.h-300px{
+    height: 300px;
+}
+.news-dept{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: green;
+    text-align: left;
+    font-size: 10px;
+}
+.news-date{
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    color:black;
+    font-size:10px;
+    font-weight:400;
+}
+.bg-quotes{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('../images/bg-quotes2.jpeg');
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    margin: 20px 0;
+}
+.text-quotes{
+    font-family: 'PlayfairDisplay-MediumItalic';
+    color: white;
+    text-align: center;
+    font-size:3vw;
+}
+.row .justify-content-center{
+    height: inherit;
+}
+.px-7p{
+    padding-left: 7% !important;
+}
+.px-9p{
+    padding-left: 9% !important;
+}
+.bg-green{
+    background-color: #38c172;
+}
+.bg-dept{
+    position: absolute;
+    height: 450px;
+    width: 360px;
+    bottom: 0px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size : contain;
+    left: 0px;
+    right: 0px;
+}
+.mt-100px{
+    margin-top: 180px;
+}
+@media (min-width: 768px) {
+    .mt-md-100px {
+      margin-top: 180px ;
+    }
+}
+
+.card-kata-dept{
+    width: 80%;
+    position: relative;
+    min-height: 200px;
+    padding: 30px;
+    background-color:white;
+    -webkit-box-shadow: 0px 11px 20px -1px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 11px 20px -1px rgba(0,0,0,0.63);
+    box-shadow: 0 1px 6px 0 rgba(49,53,59,0.12);
+    border-radius: 20px;
+}
+
+.text-kata-dept{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    word-wrap: break-word;
+}
+.anggota-kata-dept{
+    font-style: normal;
+    font-size: small;
+}
+.owl-stage {
+    display:flex;
+}
+.owl-dots {
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+}
+.owl-stage-outer{
+    width: inherit;
+    overflow: hidden;
+}
+.owl-dot {
+    height: 20px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:#38c172;
+    margin: 0 3px;
+}
+.container-fluid{
+    overflow:  hidden !important;
+}
+.big-pena{
+    width: 100%;
+    padding-top: 58%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size : cover;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom:9px;
+}
+.small-pena{
+    width: 100%;
+    padding-top: 58%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size : cover;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom:9px;
+}
+.pena-title{
+    font-family: 'ArialRoundedMT-Bold';
+    color: white;
+    position: relative;
+    bottom: 5px;
+    font-size: 3vw;
+    line-height: 110%;
+    margin: 0 auto;
+    display: block;
+    width: 90%;    
+}
+.pena-title-wrapper {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+}
+.pena-date{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    display: block;
+    bottom: 30px;
+    left: 5%;
+}
+a:hover{
+    text-decoration: none;
+}
+@media (min-width: 992px) {
+    .small-pena > .pena-title-wrapper > a > .pena-title{
+        font-size: 2vw;
+    }
+    .small-pena{
+        padding-top: 58%;
+    }
+}
+@media (max-width: 576px) {
+    .pena-date{
+        font-size: 2px;
+    }
+}
+.footer{
+    background-color: #38c172;
+}
+.jimm-footer{
+    font-family: 'AvenirNextLTPro-Bold';
+    color: white;
+    font-size: 30px;
+}
+.medsos-footer{
+    font-family: 'ArialRoundedMT-Bold';
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+@media (max-width:576px){
+    .medsos-footer{
+        margin-top: 30px;
+    }
+}
+.instagram-logo{
+    margin-top: 12px;
+    display: block;
+    height: 22px;
+}
+.facebook-logo{
+    height: 20px;
+    display: block;
+    margin-top: 12px;
+    margin-left: 1px;
+}
+.twitter-logo{
+    height: 21px;
+    display: block;
+    margin-top: 12px;
+}
+.youtube-logo{
+    height: 20px;
+    display: block;
+    margin-top: 12px;
+}
+.line-logo{
+    height: 22px;
+    display: block;
+    margin-top: 12px;
+}
+.spotify-logo{
+    height: 22px;
+    display: block;
+    margin-top: 12px;
+}
+.location-logo{
+    height: 25px;
+}
+.email-logo{
+    height: 20px;
+    margin-right: 11px;
+}
